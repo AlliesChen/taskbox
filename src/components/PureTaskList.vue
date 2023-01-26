@@ -30,7 +30,7 @@ import { reactive, computed } from 'vue';
 
 export default {
     name: 'PureTaskList',
-    components: { Task },
+    components: { BasicTask },
     props: {
         tasks: { type: Array, required: true, default: () => [] },
         loading: { type: Boolean, default: false },

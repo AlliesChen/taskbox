@@ -8,7 +8,7 @@ import PureTaskList from './PureTaskList';
 
 import { computed } from 'vue';
 
-import { useTaskStore } from '../store';
+import { useTaskStore } from '../stores';
 
 export default {
     components: { PureTaskList },
